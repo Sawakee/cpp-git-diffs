@@ -26,7 +26,7 @@ Be sure to update `/path/to` to match your environment.
 
 Executin `git diffs origin/example` in this repository to check differences in `example` dir.
 
-## Codes in origin/master
+### Codes in origin/master
 
 `example/main.cpp`
 
@@ -48,7 +48,7 @@ int main() {
 int add(int a, int b) { return a + b; }
 ```
 
-## Codes in origin/example
+### Codes in origin/example
 
 `example/main.cpp`
 
@@ -67,7 +67,7 @@ int main() {
 int add(int a, int b, int c) { return a + b + c; }
 ```
 
-## Result
+### Result
 
 Difference exists only in `sub.cpp`
 
