@@ -1,0 +1,8 @@
+[difftool]
+  prompt = false
+
+[difftool "diffsitter"]
+  cmd = diffsitter --config /path/to/config.json5 "$LOCAL" "$REMOTE"
+
+[alias]
+  diffs = "!f(){git difftool --tool=diffsitter ${1-""} | python3 /path/to/filter_diffsitter.py;};f"
